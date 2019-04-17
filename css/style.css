@@ -1,0 +1,171 @@
+
+* { -webkit-tap-highlight-color: transparent; outline: 0; margin: 0; padding: 0; vertical-align: baseline; }
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; vertical-align: baseline; }
+img { border: 0 none; vertical-align: top; }
+i, em { font-style: normal; }
+ol, ul { list-style: none; }
+input, select, button, h1, h2, h3, h4, h5, h6 { font-size: 100%; font-family: inherit; }
+table { border-collapse: collapse; border-spacing: 0; }
+a { text-decoration: none; color: #666; }
+body { margin: 0 auto; min-width: 320px; max-width: 640px; height: 100%; font-size: 14px; font-family: -apple-system,Helvetica,sans-serif; line-height: 1.5; color: #666; -webkit-text-size-adjust: 100% !important; text-size-adjust: 100% !important; }
+input[type="text"], textarea { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+html,body{
+    height: 100%;width: 100%;
+}
+canvas{
+    display: block;
+}
+article{
+    display: block;
+}
+
+p{
+    color: black;
+}
+body
+{
+    background-color: wheat;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+}
+th
+{
+    width: 100px;
+    height: 50px;
+    color: springgreen;
+    text-align: center;
+}
+td
+{
+    color: tomato;
+    text-align: center
+}
+caption
+{
+    color: slateblue;
+}
+#div_radius
+{
+    border: 2px solid #888888;
+    border-radius:26px;
+    padding: 10px 40px;
+    background-color: #dddddd;
+    width: 300px;
+}
+.div_radius
+{
+    border: 2px solid #888888;
+    border-radius:26px;
+    padding: 10px 40px;
+    background-color: #dddddd;
+    width: 300px;
+}
+.div_shadow
+{
+    background-color: yellow;
+    height: 100px;
+    width: 300px;
+    box-shadow: #888888 10px 10px 10px
+}
+.grad
+{
+    height: 200px;
+
+    background: linear-gradient(red,blue);
+    background: -webkit-linear-gradient(red,blue);
+    background: -o-linear-gradient(red,blue);
+    background: -moz-linear-gradient(red,blue)
+}
+.div_hover
+{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    transition: width 2s linear 2s, height 2s linear 2s, transform 2s;
+}
+.div_hover:hover
+{
+    width: 300px;
+    height: 300px;
+    transform: rotateY(180deg);
+    animation: colorAllTween 3s ease 0s infinite alternate;
+}
+@keyframes colorAllTween
+{
+    0%  {background: red; left: 0px; top: 0px;}
+    25% {background: yellow;left: 200px; top: 0px;}
+    50% {background: blue;left: 200px;top: 200px;}
+    75% {background: green;left: 0px;top: 200px;}
+    100%{background: white;left: 0px; top: 0px;}
+}
+@keyframes colorTween
+{
+    from {background:red;}
+    to {background: yellow;}
+}
+
+.div_resize
+{
+    border: 2px solid;
+    width: 300px;
+    height: 200px;
+    padding: 10px 40px;
+    resize: both;
+    overflow: auto;
+    text-align: center;
+}
+img.img_radius
+{
+    border-radius: 10px;
+}
+img.img_border
+{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+a.img_hover
+{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    transition: 1s;
+}
+a.img_hover:hover
+{
+    box-shadow: 0px 0px 2px 2px rgba(0, 140, 180, 0.5);
+}
+.position_div
+{
+    position: relative;
+}
+.position_rightbottom
+{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 18px;
+    color: red;
+}
+.position_img
+{
+    width: 100%;
+    height: auto;
+}
+.border_color
+{
+    width: 0;
+    height: 0;
+    border: 50px solid wheat;
+    border-top-color: red;
+    border-bottom: none;
+}
+.h_red
+{
+    color: red;
+}
